@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherForecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="subcontainer">
+            <form action="#">
+                <div class="city">
+                    <label for="name">Enter city: </label>
+                    <input type="text" id="input">
+                </div>
+                <div class="date">
+                    <label for="name">Enter date: </label>
+                    <input type="date" name="" id="date">
+                </div>
+                <button onclick="saveinput()">Get weather info</button>
+            </form>
+        </div>
+        <div class="weatherinfo"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

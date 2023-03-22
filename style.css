@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    background-image: url(bg.jpg);
+    background-size: 1300px 950px;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.container {
+    margin: auto;
+    height: 350px;
+    width: 540px;
+}
+
+.subcontainer {
+    margin-top: 60px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 10px 15px 15px rgb(26, 26, 46);
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.subcontainer input {
+    height: 25px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.city {
+    margin-bottom: 20px;
+}
+
+.date {
+    margin-bottom: 30px;
+}
+
+button {
+    height: 40px;
+    width: 315px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid rgb(117, 117, 117);
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.weatherinfo {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: black;
+    border-radius: 8px;
+    text-align: center;
+}
